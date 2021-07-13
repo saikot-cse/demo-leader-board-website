@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(182, 233, 216);
+}
+
+/* default */
+.container {
+    background-color: white;
+    height: 140vh;
+    width: 65vw;
+    margin-left: 13rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    padding-left: 2rem;
+}
+
+h2 {
+    color: rgb(47, 50, 241);
+    padding-bottom: 1.5rem;
+    font-size: 1.9rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.blog-author {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+/* All players start */
+.player-tag {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 1rem;
+    font-weight: 700;
+}
+
+.players {
+    display: flex;
+    align-items: center;
+}
+
+.all-players {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem 4rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 0rem 1rem;
+}
+
+.player-img {
+    height: 4rem;
+    width: 4rem;
+}
+
+/* All Blogs */
+.blogs {
+    display: flex;
+}
+
+.all-blogs {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 4rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 0rem 1rem;
+}
+
+.blog-img {
+    height: 8rem;
+    width: 12rem;
+}
+
+.blog-description {
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 1rem;
+    font-weight: 700;
+}
+
+
+
+.name {
+    color: rgb(47, 50, 241);
+    font-size: 0.9rem;
+}
+
+/* Latest course */
+.latest {
+    background-color: white;
+    height: 75vh;
+    width: 65vw;
+    margin-left: 13rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    padding-left: 2rem;
+}
+
+.all-course {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 2rem;
+}
+
+.course-img {
+    height: 8rem;
+    width: 16rem;
+}
+
+.course {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.course-description {
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-left: 1rem;
+}
+
+.course-title {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.author {
+    color: black;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.fa-star.filled {
+    color: orange;
+    font-size: 1rem;
+}
+
+.fa-star {
+    font-size: 1rem;
+}
+
+span {
+    font-size: 1rem;
+}
